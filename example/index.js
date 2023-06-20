@@ -10,7 +10,7 @@ const querystring = require('querystring');
 const Router = require('koa-router');
 const render = require('koa-ejs');
 
-const port = process.env.PORT || 3000;
+const port = 3000;
 
 const Account = require('./account');
 const settings = require('./settings');
